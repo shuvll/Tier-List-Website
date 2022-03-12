@@ -96,6 +96,8 @@ header nav .button:hover{
     opacity: .5;
   }
 footer {
+    text-decoration: none;
+    color: #101010;
     text-align: center;
     font-size: 1.5em;
     margin-top: 50px;
