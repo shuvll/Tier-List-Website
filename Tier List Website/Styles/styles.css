@@ -63,6 +63,7 @@ header nav .button:hover{
 }
 .content img {
     max-height: 100px;
+    width: 7.5%;
     overflow: hidden;
 }
 .text p {
@@ -82,15 +83,19 @@ header nav .button:hover{
     margin-right: auto;
     width: 50%;
 }
-.container {
+.container-1 {
     background-color: #333;
     padding: 1rem;
     margin-top: 1rem;
-  }
+}
+.container-2 {
+    padding: 1rem;
+    margin-top: 1rem;
+}
   
-  .draggable {
+.draggable {
     cursor: move;
-  }
+}
   
   .draggable.dragging {
     opacity: .5;
