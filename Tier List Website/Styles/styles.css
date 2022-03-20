@@ -63,7 +63,7 @@ header nav .button:hover{
 }
 .content img {
     max-height: 100px;
-    width: 7.5%;
+    width: 5%;
     overflow: hidden;
 }
 .text p {
@@ -83,14 +83,80 @@ header nav .button:hover{
     margin-right: auto;
     width: 50%;
 }
-.container-1 {
+.container-tiers {
     background-color: #333;
     padding: 1rem;
-    margin-top: 1rem;
+    border-top:  3px solid black;
+    border-right:  3px solid black;
+    border-left:  3px solid black;
+    height: 43px;
+    width: 89.8%;
+    float: right;
 }
-.container-2 {
+.container-tiers-last {
+    background-color: #333;
     padding: 1rem;
-    margin-top: 1rem;
+    border-top:  3px solid black;
+    border-right:  3px solid black;
+    border-left:  3px solid black;
+    border-bottom:  3px solid black;
+    height: 43px;
+    width: 89.8%;
+    float: right;
+}
+.S {
+    background-color:#e93030;
+    height: 75px;
+    width: 7.5%;
+    border-top:  3px solid black;
+    border-left:  3px solid black;
+    float: left;
+}
+.A {
+    background-color:#e98330;
+    height: 75px;
+    width: 7.5%;
+    border-top:  3px solid black;
+    border-left:  3px solid black;
+    float: left;
+}
+.B {
+    background-color:#e9dd30;
+    height: 75px;
+    width: 7.5%;
+    border-top:  3px solid black;
+    border-left:  3px solid black;
+    float: left;
+}
+.C {
+    background-color:#7ae930;
+    height: 75px;
+    width: 7.5%;
+    border-top:  3px solid black;
+    border-left:  3px solid black;
+    float: left;
+}
+.D {
+    background-color:#3033e9;
+    height: 75px;
+    width: 7.5%;
+    border-top:  3px solid black;
+    border-left:  3px solid black;
+    float: left;
+}
+.F {
+    background-color:#ca30e9;
+    height: 75px;
+    width: 7.5%;
+    border-top:  3px solid black;
+    border-left:  3px solid black;
+    border-bottom:  3px solid black;
+    float: left;
+}
+
+
+.container-items {
+    padding: 1rem;
 }
   
 .draggable {
