@@ -136,6 +136,7 @@ body {
 footer {
   text-align: center;
   font-size: 1.5em;
+  bottom: 0; right: 0; left: 0;
 }
 a {
   color: inherit;
